@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(44, 92%, 49%);
+  font-family: "Press Start 2P", cursive;
+  height: 100vh;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.container {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 30px;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.player_input {
+  width: 500px;
+  background-color: hsl(44, 57%, 75%);
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.player_input .rule {
+  color: hsl(44, 94%, 36%);
+  margin-bottom: 20px;
+  font-size: 10px;
+}
+.player_input button {
+  padding: 5px 15px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+.player_input input {
+  border: none;
+  padding: 5px;
+  width: 150px;
+  outline: none;
+}
+
+.player_input .message {
+  margin-top: 20px;
+  font-size: 10px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.error_msg {
+  color: red;
+}
+
+.success_msg {
+  color: green;
+}
+
+.try_msg {
+  color: hsla(32, 87%, 44%, 0.945);
+}
