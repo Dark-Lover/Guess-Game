@@ -78,6 +78,7 @@ body {
   }
   .container h2 {
     font-size: 13px;
+    margin-bottom: 10px;
   }
   .player_input {
     width: 320px;
